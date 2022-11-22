@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content-Container {
+  width: 500px;
+  height: 350px;
+  background-color: red;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+
+.Increase-Count {
+  color: #0f172a;
+  font-size: 40px;
+}
+
+.Increment-Btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.description {
+  color: #334155;
+}
+
+.EvenOdd {
+  color: #0f172a;
+  font-weight: 500;
+  font-size: 25px;
+}
